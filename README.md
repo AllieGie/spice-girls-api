@@ -1,33 +1,21 @@
-# My Awesome Project
-Here I created a Spice Girl's API. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+# Spice Girls Api
+Here I created a Spice Girl's API.
 
-<img src="/class39-materials/spice-girls-api-img.png" alt="screencapture of working api" width="400"> </a>
+<img src="../class39-materials/spice-girls-api-img.png" alt="screencapture of working api" width="200">
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:**  https://working-spice-girls-api.herokuapp.com/
 
-![alt tag](http://placecorgi.com/1200/650)
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Express.js
+**Tech used:** HTML, CSS, JavaScript, Node.js, Express.js,
 
-<p> This API was built using Express.js and is being hosted on Haroku. This simple API allows anyone to consume this API efforl
-<!-- Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold. -->
-
-## Optimizations
-<!-- *(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews! -->
+<p> This Spice Girls API was built using Express.js and is being hosted on Heroku. This simple API allows anyone to consume this API effortlessly using cors. In this project I built a fullstack web application where we're able to listen for GET requests, and get files. This project is a good example of how we're able to look at query parameters on the request coming in. This project is live and the API can be consumed from anywhere in the world via postman or through clientside code making it beginner friendly.</p>
 
 ## Lessons Learned:
+<p> When I first deployed the project I had an error with the port I set up to listen. I fixed the issue by having the server run on process.env.PORT || PORT to ensure the server is listening on not just my hard-coded port but on any port that Postman might designate. </p>
 
-<!-- No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing. -->
+<p>Another lesson learned during this project is how important it is to adhere to cors policy, which you can do by simply including two lines of code. Servers have to be set up to handle requests from local files and adding cors allows every user to have access to consume the API. 
+Error- Web Process failed to bind to port.</p>
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
 
-<!-- **Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel -->
