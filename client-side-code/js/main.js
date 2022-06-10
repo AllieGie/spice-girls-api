@@ -3,7 +3,7 @@ document.querySelector('button').addEventListener('click', apiRequest)
 async function apiRequest(){
     const spiceGirlName = document.querySelector('input').value
     try{
-        const response = await fetch(`https://working-spice-girls-api.herokuapp.com/${spiceGirlName}`)
+        const response = await fetch(`https://working-spice-girls-api.herokuapp.com/api/${spiceGirlName}`)
         const data = await response.json()
 
         console.log(data)
